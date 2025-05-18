@@ -28,7 +28,7 @@
 | React          | Framework utama frontend                     |
 | Axios          | Library HTTP client untuk konsumsi API       |
 | Tailwind CSS   | Utility-first CSS framework untuk styling    |
-| Flowbite       | Komponen UI berbasis Tailwind siap pakai     |
+| Daisy Ui       | Komponen UI berbasis Tailwind siap pakai     |
 
 ---
 
