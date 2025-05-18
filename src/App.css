@@ -1,2 +1,17 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+@theme{
+      /* Color Palette */
+  --color-brand-50:  #f4faeb;  /* Light */
+  --color-brand-100: #eff7e1;  /* Light :hover */
+  --color-brand-200: #deeecc;  /* Light :active */
+  --color-brand-300: #93c839;  /* Normal */
+  --color-brand-400: #84b433;  /* Normal :hover */
+  --color-brand-500: #76a02e;  /* Normal :active */
+  --color-brand-600: #6e962b;  /* Dark */
+  --color-brand-700: #587822;  /* Dark :hover */
+  --color-brand-800: #425a1a;  /* Dark :active */
+  --color-brand-900: #334614;  /* Darker */
+}
