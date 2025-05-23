@@ -104,15 +104,6 @@ npm run dev
 
 ---
 
-## ✅ Rencana Pengembangan
-
-* [ ] Dashboard admin untuk memverifikasi proyek.
-* [ ] Sistem notifikasi dan email reminder.
-* [ ] Dukungan multi-bahasa.
-* [ ] Integrasi pembayaran (midtrans/xendit/dll).
-
----
-
 ## 🤝 Kontribusi
 
 Kami terbuka untuk kontribusi baik dari sisi desain, pengembangan, maupun dokumentasi. Silakan buat `Pull Request` ke branch `fix-kumpul` setelah fork & clone repo ini.
@@ -127,7 +118,8 @@ Proyek ini berada di bawah lisensi [MIT](LICENSE).
 
 ## ✨ Kontributor
 
-* 🧑‍💻 \[Nama Anda]
-* 🌱 \[Tim Lingkungan/Komunitas]
-* 🚀 Anda? Tambahkan nama Anda di sini!
+* [Product Manager] [Gerrard]
+* [Product Design]  [Tia]
+* [Frontend Dev]    [Faidz]
+* [Backend Dev]     [Kathrine]
 
