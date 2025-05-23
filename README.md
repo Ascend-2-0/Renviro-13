@@ -1,79 +1,133 @@
 
-# 🌱 Renviro
+# 🌱 Re-Enviro
 
-**Renviro** adalah platform charity berbasis web yang dirancang untuk mempermudah masyarakat dalam berkontribusi terhadap lingkungan dan kemanusiaan, baik melalui **donasi** maupun **pendaftaran sebagai volunteer**. Dibangun dengan teknologi modern seperti React, Tailwind CSS, dan Flowbite, Renviro menawarkan antarmuka yang intuitif dan responsif.
-
----
-
-## ✨ Fitur Utama
-
-- 🧍‍♀️ **Pendaftaran Volunteer**  
-  Pengguna dapat mendaftar sebagai relawan untuk berpartisipasi dalam kegiatan sosial dan lingkungan.
-
-- 💳 **Donasi Online**  
-  Memberikan kemudahan dalam berdonasi untuk program-program kemanusiaan dan konservasi alam.
-
-- 📱 **Desain Responsif & Modern**  
-  Menggunakan Tailwind CSS dan Flowbite untuk antarmuka yang user-friendly di berbagai perangkat.
-
-- ⚡ **Integrasi API**  
-  Komunikasi frontend-backend menggunakan Axios untuk performa optimal.
+**Re-Enviro** adalah platform aksi lingkungan yang menghubungkan individu, komunitas, dan organisasi untuk menciptakan dampak positif bagi lingkungan Indonesia. Melalui dua program utama, **EcoAct** dan **Dana Hijau**, pengguna dapat berpartisipasi dalam kegiatan relawan serta mendukung proyek lingkungan melalui pendanaan.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🔗 Branch Utama
 
-| Teknologi      | Keterangan                                   |
-|----------------|-----------------------------------------------|
-| React          | Framework utama frontend                     |
-| Axios          | Library HTTP client untuk konsumsi API       |
-| Tailwind CSS   | Utility-first CSS framework untuk styling    |
-| Daisy Ui       | Komponen UI berbasis Tailwind siap pakai     |
+Branch final dari proyek ini berada di: `fix-kumpul`
 
 ---
 
+## 🚀 Fitur Utama
 
+- **EcoAct**: Daftar dan ikuti kegiatan relawan (penanaman pohon, bersih pantai, edukasi, dll).
+- **Dana Hijau**: Jelajahi, donasi, dan ajukan proyek lingkungan dengan sistem pendanaan transparan.
+- **Track History**: Pantau kontribusi Anda—baik relawan maupun donasi.
+- **Autentikasi**: Login pengguna menggunakan Supabase Auth.
+- **Dashboard Statistik**: Tampilkan statistik kontribusi dan progres pendaftaran kegiatan.
 
+---
 
+## 🛠️ Teknologi & Library yang Digunakan
 
-### 1. Clone Repository
+### Frontend
+- **React.js**: Library utama untuk membangun antarmuka pengguna.
+- **React Router DOM**: Navigasi antar halaman.
+- **Tailwind CSS**: Framework utility-first CSS untuk styling responsif dan cepat.
+- **Framer Motion**: Library animasi untuk transisi UI yang halus.
+- **React Icons (Feather Icons)**: Untuk ikon-ikon seperti kalender, lokasi, grafik, dll.
 
-```bash
-git clone https://github.com/username/renviro.git
-cd renviro
+### Backend & Database
+- **Supabase**:
+  - Supabase Auth untuk autentikasi pengguna.
+  - Supabase Database (PostgreSQL) sebagai penyimpanan data proyek, kegiatan, donasi, user, dll.
+
+---
+
+## 🖥️ Struktur Direktori
+
+```
+
+src/
+├── components/         # Komponen reusable (Hero, Stats, Testimonials, dll)
+├── pages/              # Halaman utama seperti HomePage, DanaHijauPage, EventDetailPage
+├── services/
+│   └── supabaseClient.js  # Konfigurasi koneksi Supabase
+├── assets/             # Gambar atau aset statis (jika ada)
+├── App.jsx
+├── index.jsx
 
 ````
 
-### 2. Install Dependencies
+---
+
+## 📸 Cuplikan Fitur
+
+### 1. Halaman Beranda
+- Hero, statistik dampak, program unggulan, testimoni, dan FAQ.
+
+### 2. Dana Hijau
+- Sistem crowdfunding untuk proyek lingkungan.
+- Filter & pencarian berdasarkan kategori, lokasi, dan status pendanaan.
+
+### 3. EcoAct
+- Detail kegiatan relawan.
+- Sistem pendaftaran kegiatan dengan kuota dan status pendanaan.
+
+### 4. Track History
+- Tab riwayat donasi & aktivitas relawan pengguna.
+
+---
+
+## 🔧 Cara Menjalankan Proyek
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/re-enviro.git
+cd re-enviro
+git checkout fix-kumpul
+````
+
+### 2. Instalasi Dependensi
 
 ```bash
 npm install
 ```
 
-### 3. Jalankan Aplikasi
+### 3. Konfigurasi Supabase
+
+Buat file `.env` di root folder dan isi dengan konfigurasi Supabase Anda:
+
+```env
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
+
+### 4. Menjalankan Project
 
 ```bash
 npm run dev
 ```
 
-> Aplikasi akan berjalan di `http://localhost:5173` (jika menggunakan Vite).
+---
+
+## ✅ Rencana Pengembangan
+
+* [ ] Dashboard admin untuk memverifikasi proyek.
+* [ ] Sistem notifikasi dan email reminder.
+* [ ] Dukungan multi-bahasa.
+* [ ] Integrasi pembayaran (midtrans/xendit/dll).
 
 ---
 
+## 🤝 Kontribusi
 
+Kami terbuka untuk kontribusi baik dari sisi desain, pengembangan, maupun dokumentasi. Silakan buat `Pull Request` ke branch `fix-kumpul` setelah fork & clone repo ini.
 
-## 👥 Tim Pengembang
+---
 
-* \[Product Manager] – Gerard
-* \[Product Designer] – Tia
-* \[Frontend Developer] – Faidz
-* \[Backend Developer] – Kathrine
+## 📄 Lisensi
 
+Proyek ini berada di bawah lisensi [MIT](LICENSE).
 
+---
 
+## ✨ Kontributor
 
-## 🌍 Tentang Renviro
+* 🧑‍💻 \[Nama Anda]
+* 🌱 \[Tim Lingkungan/Komunitas]
+* 🚀 Anda? Tambahkan nama Anda di sini!
 
-Renviro lahir dari semangat untuk menciptakan platform yang menghubungkan komunitas dengan gerakan sosial dan lingkungan secara lebih mudah. Dengan teknologi yang ramah pengguna, kami berharap setiap orang bisa lebih terlibat aktif dalam kebaikan.
-
-Terima kasih telah menjadi bagian dari perubahan 🌿
