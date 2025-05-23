@@ -58,17 +58,37 @@ src/
 
 ### 1. Halaman Beranda
 - Hero, statistik dampak, program unggulan, testimoni, dan FAQ.
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20044703.png)
+
 
 ### 2. Dana Hijau
 - Sistem crowdfunding untuk proyek lingkungan.
 - Filter & pencarian berdasarkan kategori, lokasi, dan status pendanaan.
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20044619.png)
+
 
 ### 3. EcoAct
 - Detail kegiatan relawan.
 - Sistem pendaftaran kegiatan dengan kuota dan status pendanaan.
+- ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20044414.png)
+
 
 ### 4. Track History
 - Tab riwayat donasi & aktivitas relawan pengguna.
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20050243.png)
+
+
+### 5. About
+- Company profile, visi & Mitra
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20050259.png)
+
+
+### 6. Login & Signup
+- Bisa pakai google
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20050338.png)
+- - ![Preview Dana Hijau](https://github.com/Ascend-2-0/Renviro-13/blob/fix-kumpul/public/Screenshot%202025-05-24%20050350.png)
+
+
 
 ---
 
