@@ -126,7 +126,7 @@ npm run dev
 
 ## 🤝 Kontribusi
 
-Kami terbuka untuk kontribusi baik dari sisi desain, pengembangan, maupun dokumentasi. Silakan buat `Pull Request` ke branch `fix-kumpul` setelah fork & clone repo ini.
+Kami terbuka untuk kontribusi baik dari sisi desain, pengembangan, maupun dokumentasi.
 
 ---
 
