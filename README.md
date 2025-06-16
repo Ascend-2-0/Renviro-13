@@ -138,8 +138,8 @@ Proyek ini berada di bawah lisensi [MIT](LICENSE).
 
 ## ✨ Kontributor
 
-* [Product Manager] [Gerrard]
-* [Product Design]  [Tia]
-* [Frontend Dev]    [Faidz]
-* [Backend Dev]     [Kathrine]
+* [Product Manager] [Nabil]
+* [Product Design]  [Fikri]
+* [FullStack Dev]   [Faidz]
+
 
